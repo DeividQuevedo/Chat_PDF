@@ -1,0 +1,25 @@
+# Frameworks para Modelos de Linguagem
+langchain==0.3.1              # Framework para criação de pipelines baseados em LLMs
+langchain-community           # Versão comunitária com conectores adicionais
+openai==0.27.10               # Cliente oficial para integração com OpenAI
+
+# Interface com o Usuário
+streamlit==1.27.0             # Framework simples para criação de interfaces web interativas
+
+# Logs e Configurações
+loguru==0.6.0                 # Ferramenta avançada de logging
+
+# Armazenamento Vetorial
+faiss-cpu                     # Ferramenta para indexação e busca vetorial otimizada
+
+# Utilitários e Simulações
+numpy==1.26.4                 # Biblioteca para cálculos vetoriais
+pypdf2                        # Biblioteca para tratamento de documentos em PDF
+python-docx                   # Biblioteca para tratamento de documentos DOCX
+
+# Tokenização e Tipagem
+tiktoken                      # Biblioteca para tokenização compatível com OpenAI
+pydantic                      # Validação de dados e tipagem forte
+
+# Configurações Ambientais
+python-dotenv                 # Gerenciamento de variáveis de ambiente
